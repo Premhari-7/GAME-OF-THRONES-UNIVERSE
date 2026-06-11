@@ -4,7 +4,7 @@
 
   <br />
 
-  <img src="https://readme-typing-svg.herokuapp.com?font=Cinzel&weight=700&size=40&duration=3000&pause=1500&color=C9A84C&center=true&vCenter=true&width=700&height=70&lines=GAME+OF+THRONES+UNIVERSE" alt="Typing Title" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Cinzel+Decorative&weight=700&size=42&duration=3000&pause=1500&color=C9A84C&center=true&vCenter=true&width=750&height=80&lines=GAME+OF+THRONES+UNIVERSE" alt="Typing Title" />
 
   <br />
 
@@ -38,7 +38,9 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## <img src="https://img.shields.io/badge/-The%20Realm%20of%20Westeros-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNMTIgMkw5IDdINUwzIDEyTDUgMTdIOUwxMiAyMkwxNSAxN0gxOUwyMSAxMkwxOSA3SDE1TDEyIDJaIi8+PC9zdmc+" alt="section" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=C9A84C&fontSize=32&fontAlignY=50&height=80&text=The%20Realm%20of%20Westeros&animation=fadeIn&font=Cinzel" alt="The Realm of Westeros" />
+</div>
 
 **Game of Thrones Universe** is a deeply immersive, visually stunning, and **fully scroll-driven** web experience that brings the world of Westeros to life. No button clicks needed -- just scroll. Every scene transitions seamlessly through cinematic crossfades, 3D particle physics, and mathematical scroll-progress algorithms.
 
@@ -46,26 +48,28 @@ This is not a standard webpage. It is an interactive journey through the lore of
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## <img src="https://img.shields.io/badge/-The%20Forging%20(Architecture)-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNMTQgMkw2IDEySDE0TDEwIDIySDE4TDIyIDEySDE0WiIvPjwvc3ZnPg==" alt="section" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=C9A84C&fontSize=32&fontAlignY=50&height=80&text=The%20Forging&animation=fadeIn&font=Cinzel" alt="The Forging" />
+</div>
 
 <table>
   <tr>
     <td width="50%">
-      <h3><img src="https://img.shields.io/badge/-Scroll%20Engine-1a1200?style=flat-square&logoColor=C9A84C" alt="icon" /> </h3>
+      <h3><img src="https://img.shields.io/badge/-%E2%96%B8%20Scroll%20Engine-0a0705?style=for-the-badge&labelColor=1a1200" alt="icon" /></h3>
       <p>The core of the application is powered by <b>GSAP ScrollTrigger</b>. The entire viewport is pinned while background images, text, and 3D particles are mathematically crossfaded based on scroll progress across 7 full viewport heights.</p>
     </td>
     <td width="50%">
-      <h3><img src="https://img.shields.io/badge/-Dragonfire%20Particles-1a1200?style=flat-square&logoColor=C9A84C" alt="icon" /> </h3>
+      <h3><img src="https://img.shields.io/badge/-%E2%96%B8%20Dragonfire%20Particles-0a0705?style=for-the-badge&labelColor=1a1200" alt="icon" /></h3>
       <p>Golden embers and frost particles are rendered in real-time WebGL using <b>@react-three/fiber</b>. The particle field rotates using sine-wave mathematics, creating a living, breathing parallax atmosphere.</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3><img src="https://img.shields.io/badge/-House%20Sigil%20Physics-1a1200?style=flat-square&logoColor=C9A84C" alt="icon" /> </h3>
+      <h3><img src="https://img.shields.io/badge/-%E2%96%B8%20House%20Sigil%20Physics-0a0705?style=for-the-badge&labelColor=1a1200" alt="icon" /></h3>
       <p>Each House card uses <b>IntersectionObserver</b> for staggered reveal animations. On hover, bounding-client calculations tilt the sigils in 3D space (<code>rotateX</code>, <code>rotateY</code>) based on cursor position.</p>
     </td>
     <td width="50%">
-      <h3><img src="https://img.shields.io/badge/-Hand--Forged%20Styles-1a1200?style=flat-square&logoColor=C9A84C" alt="icon" /> </h3>
+      <h3><img src="https://img.shields.io/badge/-%E2%96%B8%20Hand--Forged%20Styles-0a0705?style=for-the-badge&labelColor=1a1200" alt="icon" /></h3>
       <p>Zero CSS frameworks. Every style is hand-written vanilla CSS using <code>clamp()</code>, <code>calc()</code>, and viewport units (<code>dvh</code>, <code>vw</code>) for pixel-perfect responsiveness across all devices.</p>
     </td>
   </tr>
@@ -73,38 +77,40 @@ This is not a standard webpage. It is an interactive journey through the lore of
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## <img src="https://img.shields.io/badge/-The%20Seven%20Kingdoms%20(Sections)-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNMTIgMkw0IDIwSDIwTDEyIDJaIi8+PC9zdmc+" alt="section" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=C9A84C&fontSize=32&fontAlignY=50&height=80&text=The%20Seven%20Kingdoms&animation=fadeIn&font=Cinzel" alt="The Seven Kingdoms" />
+</div>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-The%20Hero%20%E2%80%94%20Cinematic%20Scroll%20Scenes-1a1200?style=flat-square" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20The%20Hero%20%E2%80%94%20Cinematic%20Scroll%20Scenes-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   Six full-screen scenes (The Ancient Chronicles, The Seven Kingdoms, The Wall, The Iron Throne, Fire and Blood, The Long Night) crossfade with mathematically interpolated opacity and scale transforms. A 3D canvas overlay renders thousands of floating star particles and golden sparkles in real-time.
   <br /><br />
 </details>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-The%20Great%20Houses%20%E2%80%94%20Interactive%20Lore%20Cards-1a1200?style=flat-square" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20The%20Great%20Houses%20%E2%80%94%20Interactive%20Lore%20Cards-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   Nine Great Houses of Westeros displayed in an animated grid. Each card features the House sigil, seat, region, and words. On hover, the card reveals a detailed lore description with 3D tilt physics applied to the sigil image.
   <br /><br />
 </details>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-The%20Small%20Council%20%E2%80%94%20Key%20Characters-1a1200?style=flat-square" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20The%20Small%20Council%20%E2%80%94%20Key%20Characters-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   A curated roster of iconic characters with expand-on-click biography panels. Styled with golden borders and cinematic typography.
   <br /><br />
 </details>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-The%20Citadel%20%E2%80%94%20Deep%20Worldbuilding%20Lore-1a1200?style=flat-square" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20The%20Citadel%20%E2%80%94%20Deep%20Worldbuilding%20Lore-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   Scroll-triggered lore panels with parallax imagery covering dragons, battles, and the deep history of Westeros.
   <br /><br />
 </details>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-Ice%20and%20Fire%20%E2%80%94%20The%20Footer-1a1200?style=flat-square" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20Ice%20and%20Fire%20%E2%80%94%20The%20Footer-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   An interactive heart that transitions between ice (frozen) and fire (ignited) states on click, with animated ice shards, fire sparks, and glowing embers.
   <br /><br />
@@ -112,7 +118,9 @@ This is not a standard webpage. It is an interactive journey through the lore of
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## <img src="https://img.shields.io/badge/-Summon%20The%20Realm%20(Run%20Locally)-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNNCAxMkwxMiA0TDIwIDEyTDE2IDEyTDE2IDIwTDggMjBMOCAxMloiLz48L3N2Zz4=" alt="section" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=C9A84C&fontSize=32&fontAlignY=50&height=80&text=Summon%20The%20Realm&animation=fadeIn&font=Cinzel" alt="Summon The Realm" />
+</div>
 
 ```bash
 # Clone the repository
@@ -132,9 +140,25 @@ Open `http://localhost:5173` in your browser to enter the realm.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## <img src="https://img.shields.io/badge/-The%20King's%20Decree%20(License)-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNNCAxNFYxMEgxMFY0SDE0VjEwSDIwVjE0SDE0VjIwSDEwVjE0WiIvPjwvc3ZnPg==" alt="section" />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=C9A84C&fontSize=32&fontAlignY=50&height=80&text=The%20King's%20Decree&animation=fadeIn&font=Cinzel" alt="The King's Decree" />
+</div>
 
 This project is open-sourced under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=C9A84C&fontSize=32&fontAlignY=50&height=80&text=The%20Raven's%20Scroll&animation=fadeIn&font=Cinzel" alt="The Raven's Scroll" />
+</div>
+
+> **Disclaimer and Copyright Notice**
+>
+> *Game of Thrones* is a registered trademark of **HBO** and **Warner Bros. Discovery**. The television series *Game of Thrones* (2011-2019) was created by **David Benioff** and **D.B. Weiss**, based on the novel series *A Song of Ice and Fire* by **George R.R. Martin**.
+>
+> All character names, house sigils, lore references, and imagery from the series are the intellectual property of HBO, Warner Bros. Discovery, and George R.R. Martin. This project uses publicly available promotional images and references from the television series for **non-commercial, educational, and fan-project purposes only**.
+>
+> This web application is an **unofficial fan project** and is not affiliated with, endorsed by, or connected to HBO, Warner Bros. Discovery, or George R.R. Martin in any way. No copyright infringement is intended.
 
 <br />
 
