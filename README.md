@@ -38,34 +38,34 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## 🐉 The Realm of Westeros
+## <img src="https://img.shields.io/badge/-The%20Realm%20of%20Westeros-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNMTIgMkw5IDdINUwzIDEyTDUgMTdIOUwxMiAyMkwxNSAxN0gxOUwyMSAxMkwxOSA3SDE1TDEyIDJaIi8+PC9zdmc+" alt="section" />
 
-**Game of Thrones Universe** is a deeply immersive, visually stunning, and **fully scroll-driven** web experience that brings the world of Westeros to life. No button clicks needed — just scroll. Every scene transitions seamlessly through cinematic crossfades, 3D particle physics, and mathematical scroll-progress algorithms.
+**Game of Thrones Universe** is a deeply immersive, visually stunning, and **fully scroll-driven** web experience that brings the world of Westeros to life. No button clicks needed -- just scroll. Every scene transitions seamlessly through cinematic crossfades, 3D particle physics, and mathematical scroll-progress algorithms.
 
 This is not a standard webpage. It is an interactive journey through the lore of the Seven Kingdoms, engineered for maximum visual impact.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## ⚔️ The Forging (Architecture)
+## <img src="https://img.shields.io/badge/-The%20Forging%20(Architecture)-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNMTQgMkw2IDEySDE0TDEwIDIySDE4TDIyIDEySDE0WiIvPjwvc3ZnPg==" alt="section" />
 
 <table>
   <tr>
     <td width="50%">
-      <h3>🗡️ The Scroll Engine</h3>
+      <h3><img src="https://img.shields.io/badge/-Scroll%20Engine-1a1200?style=flat-square&logoColor=C9A84C" alt="icon" /> </h3>
       <p>The core of the application is powered by <b>GSAP ScrollTrigger</b>. The entire viewport is pinned while background images, text, and 3D particles are mathematically crossfaded based on scroll progress across 7 full viewport heights.</p>
     </td>
     <td width="50%">
-      <h3>🔥 Dragonfire Particles</h3>
+      <h3><img src="https://img.shields.io/badge/-Dragonfire%20Particles-1a1200?style=flat-square&logoColor=C9A84C" alt="icon" /> </h3>
       <p>Golden embers and frost particles are rendered in real-time WebGL using <b>@react-three/fiber</b>. The particle field rotates using sine-wave mathematics, creating a living, breathing parallax atmosphere.</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3>🛡️ House Sigil Physics</h3>
+      <h3><img src="https://img.shields.io/badge/-House%20Sigil%20Physics-1a1200?style=flat-square&logoColor=C9A84C" alt="icon" /> </h3>
       <p>Each House card uses <b>IntersectionObserver</b> for staggered reveal animations. On hover, bounding-client calculations tilt the sigils in 3D space (<code>rotateX</code>, <code>rotateY</code>) based on cursor position.</p>
     </td>
     <td width="50%">
-      <h3>👑 Hand-Forged Styles</h3>
+      <h3><img src="https://img.shields.io/badge/-Hand--Forged%20Styles-1a1200?style=flat-square&logoColor=C9A84C" alt="icon" /> </h3>
       <p>Zero CSS frameworks. Every style is hand-written vanilla CSS using <code>clamp()</code>, <code>calc()</code>, and viewport units (<code>dvh</code>, <code>vw</code>) for pixel-perfect responsiveness across all devices.</p>
     </td>
   </tr>
@@ -73,38 +73,38 @@ This is not a standard webpage. It is an interactive journey through the lore of
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## 🏰 The Seven Kingdoms (Sections)
+## <img src="https://img.shields.io/badge/-The%20Seven%20Kingdoms%20(Sections)-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNMTIgMkw0IDIwSDIwTDEyIDJaIi8+PC9zdmc+" alt="section" />
 
 <details>
-  <summary><b>⚔️ The Hero — Cinematic Scroll Scenes</b></summary>
+  <summary><img src="https://img.shields.io/badge/-The%20Hero%20%E2%80%94%20Cinematic%20Scroll%20Scenes-1a1200?style=flat-square" alt="section" /></summary>
   <br />
   Six full-screen scenes (The Ancient Chronicles, The Seven Kingdoms, The Wall, The Iron Throne, Fire and Blood, The Long Night) crossfade with mathematically interpolated opacity and scale transforms. A 3D canvas overlay renders thousands of floating star particles and golden sparkles in real-time.
   <br /><br />
 </details>
 
 <details>
-  <summary><b>🐺 The Great Houses — Interactive Lore Cards</b></summary>
+  <summary><img src="https://img.shields.io/badge/-The%20Great%20Houses%20%E2%80%94%20Interactive%20Lore%20Cards-1a1200?style=flat-square" alt="section" /></summary>
   <br />
   Nine Great Houses of Westeros displayed in an animated grid. Each card features the House sigil, seat, region, and words. On hover, the card reveals a detailed lore description with 3D tilt physics applied to the sigil image.
   <br /><br />
 </details>
 
 <details>
-  <summary><b>👑 The Small Council — Key Characters</b></summary>
+  <summary><img src="https://img.shields.io/badge/-The%20Small%20Council%20%E2%80%94%20Key%20Characters-1a1200?style=flat-square" alt="section" /></summary>
   <br />
   A curated roster of iconic characters with expand-on-click biography panels. Styled with golden borders and cinematic typography.
   <br /><br />
 </details>
 
 <details>
-  <summary><b>📜 The Citadel — Deep Worldbuilding Lore</b></summary>
+  <summary><img src="https://img.shields.io/badge/-The%20Citadel%20%E2%80%94%20Deep%20Worldbuilding%20Lore-1a1200?style=flat-square" alt="section" /></summary>
   <br />
   Scroll-triggered lore panels with parallax imagery covering dragons, battles, and the deep history of Westeros.
   <br /><br />
 </details>
 
 <details>
-  <summary><b>❄️🔥 Ice and Fire — The Footer</b></summary>
+  <summary><img src="https://img.shields.io/badge/-Ice%20and%20Fire%20%E2%80%94%20The%20Footer-1a1200?style=flat-square" alt="section" /></summary>
   <br />
   An interactive heart that transitions between ice (frozen) and fire (ignited) states on click, with animated ice shards, fire sparks, and glowing embers.
   <br /><br />
@@ -112,19 +112,19 @@ This is not a standard webpage. It is an interactive journey through the lore of
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## 🗺️ Summon The Realm (Run Locally)
+## <img src="https://img.shields.io/badge/-Summon%20The%20Realm%20(Run%20Locally)-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNNCAxMkwxMiA0TDIwIDEyTDE2IDEyTDE2IDIwTDggMjBMOCAxMloiLz48L3N2Zz4=" alt="section" />
 
 ```bash
-# 🐉 Clone the repository
+# Clone the repository
 git clone https://github.com/Premhari-7/GAME-OF-THRONES-UNIVERSE.git
 
-# 🏰 Enter the gates of Westeros
+# Enter the gates of Westeros
 cd GAME-OF-THRONES-UNIVERSE
 
-# ⚒️ Gather your bannermen (Install dependencies)
+# Gather your bannermen (Install dependencies)
 npm install
 
-# 🔥 Light the beacons of Gondor... wait, wrong franchise. Light the pyres!
+# Light the pyres (Start the dev server)
 npm run dev
 ```
 
@@ -132,7 +132,7 @@ Open `http://localhost:5173` in your browser to enter the realm.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## 📜 The King's Decree (License)
+## <img src="https://img.shields.io/badge/-The%20King's%20Decree%20(License)-0a0705?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjQzlBODRDIj48cGF0aCBkPSJNNCAxNFYxMEgxMFY0SDE0VjEwSDIwVjE0SDE0VjIwSDEwVjE0WiIvPjwvc3ZnPg==" alt="section" />
 
 This project is open-sourced under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
@@ -144,7 +144,7 @@ This project is open-sourced under the **MIT License**. See the [LICENSE](LICENS
 
   <br />
 
-  <b>🐉 Created, Engineered, and Maintained by <a href="https://github.com/Premhari-7">Prem Hari</a> 🐉</b>
+  <b>Created, Engineered, and Maintained by <a href="https://github.com/Premhari-7">Prem Hari</a></b>
 
   <br />
   <br />
