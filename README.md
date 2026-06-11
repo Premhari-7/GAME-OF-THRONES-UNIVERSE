@@ -1,16 +1,73 @@
-# React + Vite
+<div align="center">
+  <img src="src/assets/dragon_logo.png" alt="Dragon Logo" width="350" />
+  
+  <br />
+  <br />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  # ⚔️ GAME OF THRONES UNIVERSE ⚔️
 
-Currently, two official plugins are available:
+  *Fire and Blood. Winter is Coming. Hear Me Roar.*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  **A deeply immersive, visually stunning, fully scrollable web experience exploring the Seven Kingdoms.**
 
-## React Compiler
+  <br />
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+  ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+  ![Three.js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
+  ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+  ![License](https://img.shields.io/badge/License-MIT-gold?style=for-the-badge)
 
-## Expanding the ESLint configuration
+</div>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<br />
+
+## 🐉 The Realm Awaits
+
+Welcome to the **Game of Thrones Universe**, an aesthetic, scroll-driven web application built to bring the lore of Westeros to life. 
+
+This project goes beyond a standard webpage—it is an interactive journey. As you scroll, the screen transitions seamlessly between scenes of The Wall, The Iron Throne, and the marching White Walkers, guided by 3D floating embers and cinematic transitions.
+
+### ✨ Features
+- **Cinematic Scroll Animations:** Powered by GSAP and ScrollTrigger, the site reacts dynamically to every movement of your scroll wheel.
+- **3D Particle Effects:** Golden embers and frosty sparkles float across the screen using `@react-three/fiber` and `@react-three/drei`.
+- **Thematic UI/UX:** Features a custom golden-dragon sigil, elegant typography (Cinzel & IM Fell English), and dark, brooding color palettes fit for the Night's Watch.
+- **The Noble Houses:** Interactive cards detailing the lore, words, and sigils of the Great Houses of Westeros.
+- **Responsive Design:** Scales beautifully from desktop monitors down to mobile screens.
+
+---
+
+## 🏰 Enter Westeros (Run Locally)
+
+To begin your journey into the Seven Kingdoms locally, follow these commands:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Premhari-7/GAME-OF-THRONES-UNIVERSE.git
+
+# 2. Navigate into the realm
+cd GAME-OF-THRONES-UNIVERSE
+
+# 3. Gather your forces (Install dependencies)
+npm install
+
+# 4. Light the beacons (Start the server)
+npm run dev
+```
+
+Visit `http://localhost:5173` to view the realm.
+
+---
+
+## 🛡️ License & Authorship
+
+**Created and Maintained by [Prem Hari](https://github.com/Premhari-7)**
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+<br />
+
+<div align="center">
+  <i>"When you play the game of thrones, you win or you die. There is no middle ground."</i><br/>
+  <b>— Cersei Lannister</b>
+</div>
