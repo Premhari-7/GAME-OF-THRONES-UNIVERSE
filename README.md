@@ -38,7 +38,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## About The Project
+## 🐉 The Realm of Westeros
 
 **Game of Thrones Universe** is a deeply immersive, visually stunning, and **fully scroll-driven** web experience that brings the world of Westeros to life. No button clicks needed — just scroll. Every scene transitions seamlessly through cinematic crossfades, 3D particle physics, and mathematical scroll-progress algorithms.
 
@@ -46,26 +46,26 @@ This is not a standard webpage. It is an interactive journey through the lore of
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## Architecture
+## ⚔️ The Forging (Architecture)
 
 <table>
   <tr>
     <td width="50%">
-      <h3>Scroll Engine</h3>
+      <h3>🗡️ The Scroll Engine</h3>
       <p>The core of the application is powered by <b>GSAP ScrollTrigger</b>. The entire viewport is pinned while background images, text, and 3D particles are mathematically crossfaded based on scroll progress across 7 full viewport heights.</p>
     </td>
     <td width="50%">
-      <h3>3D Particle Renderer</h3>
+      <h3>🔥 Dragonfire Particles</h3>
       <p>Golden embers and frost particles are rendered in real-time WebGL using <b>@react-three/fiber</b>. The particle field rotates using sine-wave mathematics, creating a living, breathing parallax atmosphere.</p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3>House Card Physics</h3>
+      <h3>🛡️ House Sigil Physics</h3>
       <p>Each House card uses <b>IntersectionObserver</b> for staggered reveal animations. On hover, bounding-client calculations tilt the sigils in 3D space (<code>rotateX</code>, <code>rotateY</code>) based on cursor position.</p>
     </td>
     <td width="50%">
-      <h3>Pure CSS Craftsmanship</h3>
+      <h3>👑 Hand-Forged Styles</h3>
       <p>Zero CSS frameworks. Every style is hand-written vanilla CSS using <code>clamp()</code>, <code>calc()</code>, and viewport units (<code>dvh</code>, <code>vw</code>) for pixel-perfect responsiveness across all devices.</p>
     </td>
   </tr>
@@ -73,38 +73,38 @@ This is not a standard webpage. It is an interactive journey through the lore of
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## Interactive Sections
+## 🏰 The Seven Kingdoms (Sections)
 
 <details>
-  <summary><b>The Hero — Cinematic Scroll Scenes</b></summary>
+  <summary><b>⚔️ The Hero — Cinematic Scroll Scenes</b></summary>
   <br />
   Six full-screen scenes (The Ancient Chronicles, The Seven Kingdoms, The Wall, The Iron Throne, Fire and Blood, The Long Night) crossfade with mathematically interpolated opacity and scale transforms. A 3D canvas overlay renders thousands of floating star particles and golden sparkles in real-time.
   <br /><br />
 </details>
 
 <details>
-  <summary><b>The Great Houses — Interactive Lore Cards</b></summary>
+  <summary><b>🐺 The Great Houses — Interactive Lore Cards</b></summary>
   <br />
   Nine Great Houses of Westeros displayed in an animated grid. Each card features the House sigil, seat, region, and words. On hover, the card reveals a detailed lore description with 3D tilt physics applied to the sigil image.
   <br /><br />
 </details>
 
 <details>
-  <summary><b>Characters — The Key Players</b></summary>
+  <summary><b>👑 The Small Council — Key Characters</b></summary>
   <br />
   A curated roster of iconic characters with expand-on-click biography panels. Styled with golden borders and cinematic typography.
   <br /><br />
 </details>
 
 <details>
-  <summary><b>Lore — Deep Worldbuilding</b></summary>
+  <summary><b>📜 The Citadel — Deep Worldbuilding Lore</b></summary>
   <br />
   Scroll-triggered lore panels with parallax imagery covering dragons, battles, and the deep history of Westeros.
   <br /><br />
 </details>
 
 <details>
-  <summary><b>Footer — Ice and Fire</b></summary>
+  <summary><b>❄️🔥 Ice and Fire — The Footer</b></summary>
   <br />
   An interactive heart that transitions between ice (frozen) and fire (ignited) states on click, with animated ice shards, fire sparks, and glowing embers.
   <br /><br />
@@ -112,27 +112,27 @@ This is not a standard webpage. It is an interactive journey through the lore of
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## Run Locally
+## 🗺️ Summon The Realm (Run Locally)
 
 ```bash
-# Clone the repository
+# 🐉 Clone the repository
 git clone https://github.com/Premhari-7/GAME-OF-THRONES-UNIVERSE.git
 
-# Navigate into the project
+# 🏰 Enter the gates of Westeros
 cd GAME-OF-THRONES-UNIVERSE
 
-# Install dependencies
+# ⚒️ Gather your bannermen (Install dependencies)
 npm install
 
-# Start the development server
+# 🔥 Light the beacons of Gondor... wait, wrong franchise. Light the pyres!
 npm run dev
 ```
 
-Open `http://localhost:5173` in your browser.
+Open `http://localhost:5173` in your browser to enter the realm.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
-## License
+## 📜 The King's Decree (License)
 
 This project is open-sourced under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
@@ -144,7 +144,7 @@ This project is open-sourced under the **MIT License**. See the [LICENSE](LICENS
 
   <br />
 
-  <b>Created, Engineered, and Maintained by <a href="https://github.com/Premhari-7">Prem Hari</a></b>
+  <b>🐉 Created, Engineered, and Maintained by <a href="https://github.com/Premhari-7">Prem Hari</a> 🐉</b>
 
   <br />
   <br />
