@@ -1,0 +1,49 @@
+<svg width="800" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7a6130">
+        <animate attributeName="stop-color" values="#7a6130;#c9a84c;#e8c97a;#c9a84c;#7a6130" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#c9a84c">
+        <animate attributeName="stop-color" values="#c9a84c;#e8c97a;#ffffff;#e8c97a;#c9a84c" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#7a6130">
+        <animate attributeName="stop-color" values="#7a6130;#c9a84c;#e8c97a;#c9a84c;#7a6130" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="150" fill="#000000" />
+  
+  <g transform="translate(0,0)">
+    <animateTransform attributeName="transform" type="translate" values="0,2; 0,-2; 0,2" dur="6s" repeatCount="indefinite" />
+    <text x="400" y="85" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="url(#gold)" text-anchor="middle" filter="url(#glow)" letter-spacing="6">
+      GAME OF THRONES UNIVERSE
+    </text>
+  </g>
+
+  <line x1="400" y1="120" x2="400" y2="120" stroke="url(#gold)" stroke-width="2" filter="url(#glow)">
+    <animate attributeName="x1" values="400;100" dur="2s" fill="freeze" />
+    <animate attributeName="x2" values="400;700" dur="2s" fill="freeze" />
+  </line>
+  
+  <!-- Animated Particles -->
+  <circle cx="150" cy="50" r="1.5" fill="#e8c97a" filter="url(#glow)">
+    <animate attributeName="cy" values="100;20" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="650" cy="80" r="2" fill="#e8c97a" filter="url(#glow)">
+    <animate attributeName="cy" values="120;40" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="250" cy="110" r="1" fill="#ffffff" filter="url(#glow)">
+    <animate attributeName="cy" values="140;60" dur="2.5s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0;1;0" dur="2.5s" repeatCount="indefinite" />
+  </circle>
+</svg>
