@@ -14,6 +14,7 @@
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0705,50:1a1200,100:0a0705&height=3&section=header" width="100%" />
 
+  <a href="https://game-of-thrones-universe.vercel.app/" target="_blank"><img src="https://img.shields.io/badge/Live%20Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo" /></a>
   <a href="#"><img src="https://img.shields.io/badge/React-20232a?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js" /></a>
