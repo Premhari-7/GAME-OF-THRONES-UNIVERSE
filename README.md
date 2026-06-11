@@ -78,35 +78,35 @@ This is not a standard webpage. It is an interactive journey through the lore of
 </div>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20The%20Hero%20%E2%80%94%20Cinematic%20Scroll%20Scenes-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-The%20Hero%20%E2%80%94%20Cinematic%20Scroll%20Scenes-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   Six full-screen scenes (The Ancient Chronicles, The Seven Kingdoms, The Wall, The Iron Throne, Fire and Blood, The Long Night) crossfade with mathematically interpolated opacity and scale transforms. A 3D canvas overlay renders thousands of floating star particles and golden sparkles in real-time.
   <br /><br />
 </details>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20The%20Great%20Houses%20%E2%80%94%20Interactive%20Lore%20Cards-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-The%20Great%20Houses%20%E2%80%94%20Interactive%20Lore%20Cards-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   Nine Great Houses of Westeros displayed in an animated grid. Each card features the House sigil, seat, region, and words. On hover, the card reveals a detailed lore description with 3D tilt physics applied to the sigil image.
   <br /><br />
 </details>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20The%20Small%20Council%20%E2%80%94%20Key%20Characters-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-The%20Small%20Council%20%E2%80%94%20Key%20Characters-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   A curated roster of iconic characters with expand-on-click biography panels. Styled with golden borders and cinematic typography.
   <br /><br />
 </details>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20The%20Citadel%20%E2%80%94%20Deep%20Worldbuilding%20Lore-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-The%20Citadel%20%E2%80%94%20Deep%20Worldbuilding%20Lore-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   Scroll-triggered lore panels with parallax imagery covering dragons, battles, and the deep history of Westeros.
   <br /><br />
 </details>
 
 <details>
-  <summary><img src="https://img.shields.io/badge/-%E2%96%B8%20Ice%20and%20Fire%20%E2%80%94%20The%20Footer-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
+  <summary><img src="https://img.shields.io/badge/-Ice%20and%20Fire%20%E2%80%94%20The%20Footer-0a0705?style=for-the-badge&labelColor=1a1200" alt="section" /></summary>
   <br />
   An interactive heart that transitions between ice (frozen) and fire (ignited) states on click, with animated ice shards, fire sparks, and glowing embers.
   <br /><br />
@@ -131,8 +131,6 @@ npm install
 # Light the pyres (Start the dev server)
 npm run dev
 ```
-
-Open `http://localhost:5173` in your browser to enter the realm.
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a0705,50:1a1200,100:0a0705&height=2" width="100%" />
 
