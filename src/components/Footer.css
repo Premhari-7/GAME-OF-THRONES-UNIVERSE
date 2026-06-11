@@ -1,0 +1,311 @@
+.main-footer {
+  width: 100%;
+  padding: 2.5rem 1rem;
+  background: #020406;
+  border-top: 1px solid rgba(201, 168, 76, 0.1);
+  text-align: center;
+  position: relative;
+  z-index: 20;
+}
+.footer-content { max-width: 1200px; margin: 0 auto; }
+.crafted-text {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  color: #a0aab5;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+/* ═══════════════════════════════════════════════════
+   HEART WRAPPER
+   ═══════════════════════════════════════════════════ */
+.heart-wrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.h-icon {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  z-index: 5;
+  fill: none;
+  transition: stroke 0.5s, filter 0.5s, fill 0.5s, transform 0.3s;
+}
+
+/* ═══════════════════════════════════════════════════
+   PHASE 1 — FROZEN
+   Heart is encased in ice, gently pulsing cold
+   ═══════════════════════════════════════════════════ */
+.phase-frozen .h-icon {
+  stroke: #9ad4ec;
+  fill: rgba(154, 212, 236, 0.1);
+  animation: frozen-pulse 2s ease-in-out infinite;
+}
+
+@keyframes frozen-pulse {
+  0%, 100% {
+    filter:
+      drop-shadow(0 0 3px rgba(154, 212, 236, 0.5))
+      drop-shadow(0 0 6px rgba(200, 230, 255, 0.2));
+    transform: scale(1);
+  }
+  50% {
+    filter:
+      drop-shadow(0 0 6px rgba(154, 212, 236, 0.9))
+      drop-shadow(0 0 14px rgba(200, 230, 255, 0.5))
+      drop-shadow(0 0 22px rgba(255, 255, 255, 0.15));
+    transform: scale(1.06);
+  }
+}
+
+/* Ice coating — semi-transparent shell around the heart */
+.ice-coat {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(154, 212, 236, 0.5);
+  background: radial-gradient(circle, rgba(154, 212, 236, 0.08) 0%, transparent 70%);
+  z-index: 4;
+  animation: ice-shimmer 3s ease-in-out infinite;
+}
+
+@keyframes ice-shimmer {
+  0%, 100% {
+    box-shadow:
+      0 0 6px rgba(154, 212, 236, 0.3),
+      inset 0 0 6px rgba(200, 230, 255, 0.1);
+    opacity: 0.8;
+  }
+  50% {
+    box-shadow:
+      0 0 12px rgba(154, 212, 236, 0.6),
+      inset 0 0 10px rgba(200, 230, 255, 0.2);
+    opacity: 1;
+  }
+}
+
+/* Frost mist — tiny floating particles */
+.frost-mist {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  background: #d0eaff;
+  border-radius: 50%;
+  z-index: 6;
+  opacity: 0;
+  box-shadow: 0 0 4px #b0dcf5;
+  animation: mist-float 2.5s ease-in-out infinite;
+}
+
+.frost-mist.m2 {
+  animation-delay: 1.2s;
+  width: 2px;
+  height: 2px;
+}
+
+@keyframes mist-float {
+  0%   { opacity: 0; transform: translate(-8px, 4px) scale(0.5); }
+  30%  { opacity: 0.9; }
+  70%  { opacity: 0.9; }
+  100% { opacity: 0; transform: translate(8px, -6px) scale(0.3); }
+}
+
+.phase-frozen:hover .ice-coat {
+  box-shadow:
+    0 0 16px rgba(154, 212, 236, 0.8),
+    inset 0 0 12px rgba(200, 230, 255, 0.3);
+}
+
+/* ═══════════════════════════════════════════════════
+   PHASE 2 — BREAKING
+   Ice shatters outward, fire sparks burst in
+   ═══════════════════════════════════════════════════ */
+
+/* Heart shakes then glows warm */
+.phase-breaking .h-icon {
+  animation: heart-shake 0.4s ease-in-out, heart-ignite 0.9s ease forwards;
+}
+
+@keyframes heart-shake {
+  0%, 100% { transform: translateX(0); }
+  15%      { transform: translateX(-3px) rotate(-3deg); }
+  30%      { transform: translateX(3px) rotate(3deg); }
+  45%      { transform: translateX(-2px) rotate(-2deg); }
+  60%      { transform: translateX(2px) rotate(2deg); }
+  75%      { transform: translateX(-1px); }
+}
+
+@keyframes heart-ignite {
+  0%   { stroke: #9ad4ec; fill: rgba(154, 212, 236, 0.1); filter: drop-shadow(0 0 4px rgba(154, 212, 236, 0.5)); }
+  40%  { stroke: #f5a623; fill: rgba(245, 166, 35, 0.15); filter: drop-shadow(0 0 8px rgba(245, 166, 35, 0.6)); }
+  100% { stroke: #e74c3c; fill: rgba(231, 76, 60, 0.2); filter: drop-shadow(0 0 10px rgba(231, 76, 60, 0.8)) drop-shadow(0 0 20px rgba(230, 126, 34, 0.5)); }
+}
+
+/* Ice shards — fragments flying outward */
+.shard {
+  position: absolute;
+  z-index: 10;
+  background: linear-gradient(135deg, #c8e6ff 0%, #9ad4ec 50%, #e0f0ff 100%);
+  opacity: 0;
+  animation: shard-fly 0.7s ease-out forwards;
+  box-shadow: 0 0 4px rgba(154, 212, 236, 0.8);
+}
+
+.sh1 { width: 5px; height: 3px; --sx: -20px; --sy: -18px; --rot: 120deg; animation-delay: 0s; }
+.sh2 { width: 4px; height: 4px; --sx: 22px;  --sy: -14px; --rot: -90deg; animation-delay: 0.03s; }
+.sh3 { width: 6px; height: 2px; --sx: -18px; --sy: 16px;  --rot: 200deg; animation-delay: 0.06s; }
+.sh4 { width: 3px; height: 5px; --sx: 20px;  --sy: 18px;  --rot: -150deg; animation-delay: 0.04s; }
+.sh5 { width: 4px; height: 3px; --sx: -24px; --sy: 0px;   --rot: 80deg; animation-delay: 0.08s; }
+.sh6 { width: 3px; height: 3px; --sx: 26px;  --sy: 2px;   --rot: -60deg; animation-delay: 0.02s; }
+.sh7 { width: 5px; height: 2px; --sx: -10px; --sy: -22px; --rot: 160deg; animation-delay: 0.05s; }
+.sh8 { width: 4px; height: 3px; --sx: 12px;  --sy: 20px;  --rot: -120deg; animation-delay: 0.07s; }
+
+@keyframes shard-fly {
+  0%   { opacity: 1; transform: translate(0, 0) rotate(0deg) scale(1); }
+  100% { opacity: 0; transform: translate(var(--sx), var(--sy)) rotate(var(--rot)) scale(0.3); }
+}
+
+/* Fire sparks — appear right after shards start */
+.spark {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  z-index: 10;
+  opacity: 0;
+  background: radial-gradient(circle, #f1c40f 0%, #e67e22 60%, #e74c3c 100%);
+  box-shadow: 0 0 6px #e67e22, 0 0 10px rgba(241, 196, 15, 0.5);
+  animation: spark-burst 0.6s ease-out forwards;
+}
+
+.sp1 { --spx: -16px; --spy: -14px; animation-delay: 0.2s; width: 5px; height: 5px; }
+.sp2 { --spx: 18px;  --spy: -10px; animation-delay: 0.25s; }
+.sp3 { --spx: -12px; --spy: 15px;  animation-delay: 0.3s; width: 3px; height: 3px; }
+.sp4 { --spx: 14px;  --spy: 12px;  animation-delay: 0.28s; }
+.sp5 { --spx: -20px; --spy: 2px;   animation-delay: 0.35s; width: 5px; height: 5px; }
+.sp6 { --spx: 22px;  --spy: -2px;  animation-delay: 0.32s; width: 3px; height: 3px; }
+
+@keyframes spark-burst {
+  0%   { opacity: 1; transform: translate(0, 0) scale(1); }
+  60%  { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--spx), var(--spy)) scale(0); }
+}
+
+/* ═══════════════════════════════════════════════════
+   PHASE 3 — FIRE
+   Heart is ablaze, flickering with embers rising
+   ═══════════════════════════════════════════════════ */
+.phase-fire .h-icon {
+  stroke: #e74c3c;
+  fill: rgba(231, 76, 60, 0.2);
+  animation: flame-flicker 0.3s ease-in-out infinite alternate;
+}
+
+@keyframes flame-flicker {
+  0% {
+    stroke: #e74c3c;
+    filter:
+      drop-shadow(0 0 4px rgba(231, 76, 60, 0.7))
+      drop-shadow(0 0 8px rgba(230, 126, 34, 0.4));
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    stroke: #e67e22;
+    filter:
+      drop-shadow(0 0 6px rgba(241, 196, 15, 0.8))
+      drop-shadow(0 0 12px rgba(230, 126, 34, 0.6));
+    transform: scale(1.04) translateY(-0.5px);
+  }
+  100% {
+    stroke: #f39c12;
+    filter:
+      drop-shadow(0 0 8px rgba(231, 76, 60, 1))
+      drop-shadow(0 0 16px rgba(230, 126, 34, 0.7))
+      drop-shadow(0 0 24px rgba(241, 196, 15, 0.3));
+    transform: scale(1.07) translateY(-1px);
+  }
+}
+
+/* Fire glow behind the heart */
+.fire-glow {
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  z-index: 1;
+  animation: fire-glow-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes fire-glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 8px rgba(231, 76, 60, 0.3), 0 0 16px rgba(230, 126, 34, 0.15);
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    box-shadow: 0 0 14px rgba(231, 76, 60, 0.5), 0 0 28px rgba(241, 196, 15, 0.3);
+    transform: scale(1.3);
+    opacity: 0;
+  }
+}
+
+/* Rising embers */
+.ember {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #f1c40f;
+  z-index: 6;
+  opacity: 0;
+  box-shadow: 0 0 3px #e67e22;
+  animation: ember-rise 1.8s ease-out infinite;
+}
+
+.em1 { left: 10px; animation-delay: 0s;   --drift: -2px; }
+.em2 { left: 16px; animation-delay: 0.6s; --drift: 3px; }
+.em3 { left: 22px; animation-delay: 1.2s; --drift: -1px; }
+
+@keyframes ember-rise {
+  0%   { opacity: 0; transform: translateY(0) translateX(0) scale(1); }
+  15%  { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-20px) translateX(var(--drift)) scale(0.2); }
+}
+
+/* ═══════════════════════════════════════════════════
+   AUTHOR LINK
+   ═══════════════════════════════════════════════════ */
+.author-link {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #c9a84c;
+  text-decoration: none;
+  font-weight: 700;
+  position: relative;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+.author-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(to right, #c9a84c, #f5e6c8);
+  transition: width 0.3s;
+}
+.author-link:hover {
+  color: #f5e6c8;
+  text-shadow: 0 0 12px rgba(201, 168, 76, 0.5);
+}
+.author-link:hover::after { width: 100%; }
